@@ -79,12 +79,12 @@ h1::before {
   margin:12px 0;
   box-shadow:0 12px 35px rgba(0,7,18,.20),inset 0 1px 0 rgba(225,237,235,.045);
 }
-main > .card:first-of-type {
+main > .sub + .card {
   border-top-color:rgba(221,188,126,.50);
   background:linear-gradient(145deg,rgba(23,49,70,.98),rgba(13,32,50,.98));
 }
 .card h3 {font-size:16px;color:#e1ebed;letter-spacing:.015em;margin-bottom:8px;}
-main > .card:first-of-type h3 {color:#eadcba;}
+main > .sub + .card h3 {color:#eadcba;}
 .meta {color:#b8cbd5;line-height:1.65;}
 .note {color:#bbccd5;line-height:1.65;}
 .tag,.eq {
